@@ -1,0 +1,57 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 3px #000;
+    padding-top: 30px;
+}
+
+    header li {
+        display: inline;
+        padding-left: 45px;
+    }
+
+        header li a {
+            color: #484848;
+            text-decoration: none;
+            padding: 13px;
+            transition: .3s ease;
+        }
+
+            header li a:hover {
+                color: #000;
+                text-decoration: underline;
+                transition: .3s ease;
+            }
+
+    header ul #contact a {
+        color: white;
+        background-color: royalblue;
+        border-radius: 30px;
+        float: right;
+        position: relative;
+        top: -15px;
+        right: 20px;
+    }
+
+        header ul #contact a:hover {
+            background-color: goldenrod;
+            transition: .3s ease;
+        }
+
+.active {
+    color: #000;
+    text-decoration: underline;
+}
+
+header li img {
+    width: 180px;
+    float: left;
+    margin-top: -30px;
+}

@@ -1,0 +1,95 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-y: scroll;
+    font-family: 'Nanum Gothic';
+}
+
+/*header*/
+header {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 3px #000;
+    padding-top: 30px;
+}
+
+    header li {
+        display: inline;
+        padding-left: 45px;
+    }
+
+        header li a {
+            color: #484848;
+            text-decoration: none;
+            padding: 13px;
+            transition: .3s ease;
+        }
+
+            header li a:hover {
+                color: #000;
+                text-decoration: underline;
+                transition: .3s ease;
+            }
+
+    header ul #contact a {
+        color: white;
+        background-color: royalblue;
+        border-radius: 30px;
+        float: right;
+        position: relative;
+        top: -15px;
+        right: 20px;
+    }
+
+        header ul #contact a:hover {
+            background-color: goldenrod;
+            transition: .3s ease;
+        }
+
+.active {
+    color: #000;
+    text-decoration: underline;
+}
+
+header li img {
+    width: 180px;
+    float: left;
+    margin-top: -30px;
+}
+/*header poster*/
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#row1 {
+    margin-right: 6%;
+    margin-left: 6%;
+    justify-content: flex-start;
+    border-bottom: 0.5px solid #c8c8c8;
+    margin-bottom: 100px;
+
+}
+    #row1 h1 {
+        font-size: 80px;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    #row1 p {
+        font-size: 20px;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+
+.col1 {
+    flex-basis: 50%;
+}
+
+.col1 img {
+        max-width: 100%;
+        padding: 50px 0;
+}
